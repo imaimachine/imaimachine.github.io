@@ -77,6 +77,9 @@ var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 console.log(google_custom_params == null);
 console.log(google_custom_params);
+if (google_custom_params == null) {google_custom_params ={};}
+console.log(google_custom_params == null);
+console.log(google_custom_params);
 google_custom_params["humptyId"] = ["h1-4735d"];
 /* ]]> */
 </script>
